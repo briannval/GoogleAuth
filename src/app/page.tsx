@@ -1,7 +1,8 @@
 import Image from 'next/image'
+import Hero from "@/components/hero.tsx"
 
 export default function Home() {
     return (
-     <h1>Hello</h1>
+     <Hero />
     )
 }

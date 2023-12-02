@@ -5,6 +5,10 @@ import React from "react"
 
 const Hero:React.FC = () => {
     return (
-        <h1>This is the hero section</h1>
+        <>
+       <div className="bg-white">
+            <h1>This is the hero section>
+       </div>
+       </>
     )
 }
