@@ -1,34 +1,20 @@
 export default function Home() {
   return (
-    <section className="bg-white max-w-screen-xl py-10 text-center">
-      <div className="max-w-screen-xl py-8 px-4 text-center">
+    <section className="bg-white">
+      <div className="max-w-screen-xl py-20 px-4 text-center mx-auto ">
         <h1 className="text-4xl font-extrabold mb-8">
           Sign in with credibility.
         </h1>
         <p className="text-lg font-normal mb-8">
           Never worry about lost passwords anymore.
         </p>
-        <div className="flex flex-col max-w-sm gap-2">
+        <div className="my-20 h-300 w-300 flex justify-center items-center">
+          <div className="mx-auto h-300 w-300 animate-spin rounded-4xl outline-dotted outline-2 outline-gray-500"></div>
+        </div>
+        <div className="px-10 mx-auto text-center flex justify-center items-center space-x-10">
           <button
             type="button"
-            className="py-2 px-4 flex justify-center items-center  bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
-          >
-            <svg
-              width="20"
-              height="20"
-              fill="currentColor"
-              className="mr-2"
-              viewBox="0 0 1792 1792"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"></path>
-            </svg>
-            Sign in with Facebook
-          </button>
-
-          <button
-            type="button"
-            className="py-2 px-4 flex justify-center items-center  bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+            className="py-2 px-4 flex justify-center items-center  bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-30 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
           >
             <svg
               width="20"
@@ -45,7 +31,7 @@ export default function Home() {
 
           <button
             type="button"
-            className="py-2 px-4 flex justify-center items-center  bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+            className="py-2 px-4 flex justify-center items-center  bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-30 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
